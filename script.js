@@ -51,9 +51,8 @@ function renderToHtml() {
   absensi_data.forEach((e, i) => {
     root.innerHTML += `
       <div class="card" draggable="true" ondragend="handleDelete(${i})">
-        <span>${i + 1}. &nbsp; ${e.nama}</span> 
-        <span>${e.nim}</span>
-        <div> ${e.waktu}&nbsp; ${e.tanggal}</div>
+        <span>${i + 1}. &nbsp; ${e.nama} ${e.nim}</span> 
+        <span> ${e.waktu}&nbsp; ${e.tanggal}</span>
       </div>`;
   });
 }
