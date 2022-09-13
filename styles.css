@@ -11,6 +11,9 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
 }
+main {
+  max-height: inherit;
+}
 .container {
   width: inherit;
   max-width: 600px;
@@ -38,6 +41,7 @@ body {
 #absensi_form label {
   font-size: 16px;
   font-weight: 600;
+  color: blueviolet;
 }
 #absensi_form input {
   height: 40px;
@@ -90,3 +94,24 @@ body {
   font-weight: 30px;
   padding: 0 20px;
 }
+/* .foot {
+  bottom: auto;
+}
+footer {
+  width: inherit;
+  height: 40px;
+  background-color: #bf9742;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.137);
+  user-select: none;
+  bottom: auto;
+}
+footer p,
+footer h2 {
+  margin: 0;
+  color: white;
+  font-size: inherit;
+} */
